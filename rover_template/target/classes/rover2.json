@@ -1,0 +1,42 @@
+[{
+    "turn": ["SOUTH",5]
+},
+{
+    "turn": ["EAST",5]
+},
+{
+    "turn": ["NORTH",5]
+},
+{
+    "turn": ["WEST",5]
+},
+{
+    "move": [10,5]
+},
+{
+    "move": [1,1]
+},
+{
+    "move": [0,10]
+},
+
+{
+    "move": [0,0]
+},
+{
+    "log":{
+       "move": [10,10] 
+    }
+},
+{
+    "log":{
+       "turn": ["WEST",10] 
+    }
+},
+{
+    "log":{
+        "include":"roverinc.json"
+    }
+}
+
+]
